@@ -5,7 +5,7 @@ syn match    cCustomClass    "\w\+\s*::" contains=cCustomScope
 
 "syn keyword	cTodo		contained TODO FIXME XXX GLOO
 "syn match       cBracketTag '\[.*\]' contained
-syn match       cTodo '\[.*\]' contained
+syn match       cTodo '\[\u\+\]' contained
 "syn cluster	cCommentGroup	contains=cTodo,cBadContinuation,cBracketTag
 
 hi def link cCustomFunc  Function
